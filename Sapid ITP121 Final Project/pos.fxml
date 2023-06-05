@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="882.0" prefWidth="1277.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalpos.PosController">
+    <stylesheets>
+        <URL value="@pos.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="585.0" layoutY="139.0" prefHeight="214.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="26.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Minestrone%20Soup.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="90.0" layoutY="189.0" text="\$15.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="358.0" layoutY="139.0" prefHeight="214.0" prefWidth="209.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="13.0" layoutY="129.0" text="Homemade Pizza and Pizza Dough" />
+            <Label layoutX="95.0" layoutY="146.0" text="\$20.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="139.0" layoutY="139.0" prefHeight="214.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;" styleClass="pane1">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Wrap-and-roll%20sandwiches.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="90.0" layoutY="189.0" text="\$10.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Pane layoutX="60.0" layoutY="-37.0" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="17.0" layoutY="15.0" prefHeight="56.0" prefWidth="1244.0" styleClass="topPane">
+         <children>
+            <TextField layoutX="128.0" layoutY="11.0" prefHeight="35.0" prefWidth="268.0" promptText="Search foods" style="-fx-background-color: #;" />
+            <Label layoutX="10.0" layoutY="13.0" text="Restro POS">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+            <ImageView fitHeight="25.0" fitWidth="21.0" layoutX="369.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Desktop/Images/Icon/search-interface-symbol.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="1117.0" layoutY="11.0" prefHeight="35.0" prefWidth="118.0" styleClass="table">
+               <children>
+                  <Label layoutX="44.0" layoutY="9.0" text="Select Table" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <ImageView fitHeight="25.0" fitWidth="34.0" layoutX="10.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@tables.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="1068.0" layoutY="11.0" prefHeight="35.0" prefWidth="32.0" style="-fx-background-color: #F1F1F1;">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="3.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" styleClass="wifi">
+                     <image>
+                        <Image url="@wifi.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="1017.0" layoutY="11.0" prefHeight="35.0" prefWidth="32.0" styleClass="reloadTop">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@reload.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="16.0" layoutY="88.0" prefHeight="744.0" prefWidth="102.0" styleClass="leftPane">
+         <children>
+            <Pane layoutX="22.0" layoutY="5.0" prefHeight="64.0" prefWidth="56.0" styleClass="home" />
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="36.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@home.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="33.0" layoutY="46.0" text="Home" />
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="37.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@customer.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="20.0" layoutY="110.0" text="Customers" />
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="38.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@tables.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="34.0" layoutY="174.0" text="Tables" />
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="36.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cashiers.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="31.0" layoutY="235.0" text="Cashier" />
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="38.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@orders.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="33.0" layoutY="299.0" text="Orders" />
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="38.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@report%20(1).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="31.0" layoutY="367.0" text="Reports" />
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="35.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@settings.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="28.0" layoutY="435.0" text="Settings" />
+            <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="34.0" layoutY="671.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@log%20out.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="28.0" layoutY="704.0" text="Logout" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Pane>
+      <Pane layoutX="138.0" layoutY="87.0" prefHeight="35.0" prefWidth="647.0" styleClass="topMenu">
+         <children>
+            <Button layoutX="11.0" layoutY="5.0" mnemonicParsing="false" text="Starters">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button layoutX="87.0" layoutY="6.0" mnemonicParsing="false" text="Breakfast">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button layoutX="175.0" layoutY="6.0" mnemonicParsing="false" styleClass="lunch" text="Lunch">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button layoutX="242.0" layoutY="6.0" mnemonicParsing="false" text="Supper">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button layoutX="314.0" layoutY="6.0" mnemonicParsing="false" text="Deserts">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button layoutX="389.0" layoutY="6.0" mnemonicParsing="false" text="Beverages">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+         </children>
+      </Pane>
+      <Pane layoutX="804.0" layoutY="129.0" prefHeight="559.0" prefWidth="457.0" styleClass="rightPane">
+         <children>
+            <Pane layoutX="8.0" layoutY="75.0" prefHeight="56.0" prefWidth="441.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <Pane layoutX="8.0" layoutY="9.0" prefHeight="35.0" prefWidth="115.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <Label layoutX="-1.0" layoutY="5.0" prefHeight="27.0" prefWidth="17.0" text="&gt;" />
+                        <Label layoutX="10.0" layoutY="10.0" text="2 Wrap and roll sandwich ">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="374.0" layoutY="8.0" prefHeight="35.0" prefWidth="32.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="42.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@close.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="-12.0" layoutY="13.0" text="\$20.00">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="8.0" layoutY="14.0" prefHeight="56.0" prefWidth="441.0" styleClass="order1">
+               <children>
+                  <Pane layoutX="374.0" layoutY="8.0" prefHeight="35.0" prefWidth="32.0">
+                     <children>
+                        <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="42.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@close.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="-13.0" layoutY="11.0" text="\$15.00">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="8.0" layoutY="9.0" prefHeight="35.0" prefWidth="115.0">
+                     <children>
+                        <Label layoutX="-1.0" layoutY="5.0" prefHeight="27.0" prefWidth="17.0" text="&gt;" />
+                        <Label layoutX="10.0" layoutY="10.0" text="1  Minestrone Soup">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children></Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="8.0" layoutY="131.0" prefHeight="150.0" prefWidth="441.0" styleClass="order2">
+               <children>
+                  <Pane layoutX="11.0" layoutY="9.0" prefHeight="35.0" prefWidth="184.0">
+                     <children>
+                        <Label layoutX="10.0" layoutY="10.0" text="1 Sushi Rolls">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="374.0" layoutY="8.0" prefHeight="35.0" prefWidth="32.0">
+                     <children>
+                        <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="42.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@close.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="-13.0" layoutY="11.0" text="\$24.00">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="2.0" layoutY="15.0" prefHeight="17.0" prefWidth="17.0">
+                     <children>
+                        <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="2.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Desktop/Images/Icon/down-arrow.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Label layoutX="33.0" layoutY="39.0" text="Medium">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="365.0" layoutY="39.0" text="\$30.00">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="31.0" layoutY="68.0" text="Quantity">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="33.0" layoutY="92.0" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <Label layoutX="89.0" layoutY="4.0" text="1" />
+                     </children>
+                  </Pane>
+                  <Label layoutX="249.0" layoutY="68.0" text="Discount(%)">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="249.0" layoutY="92.0" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <Label layoutX="83.0" layoutY="4.0" text="10" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="8.0" layoutY="281.0" prefHeight="56.0" prefWidth="441.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <Pane layoutX="8.0" layoutY="9.0" prefHeight="35.0" prefWidth="115.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <Label layoutX="-1.0" layoutY="5.0" prefHeight="27.0" prefWidth="17.0" text="&gt;" />
+                        <Label layoutX="10.0" layoutY="10.0" text="3 Homemade Pizza and Pizza Dough">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="374.0" layoutY="8.0" prefHeight="35.0" prefWidth="32.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="42.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@close.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="-12.0" layoutY="13.0" text="\$45.00">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="8.0" layoutY="494.0" prefHeight="56.0" prefWidth="441.0" styleClass="addBottom">
+               <children>
+                  <Pane layoutX="8.0" layoutY="9.0" prefHeight="35.0" prefWidth="115.0" style="-fx-background-color: #FFD580FFFFFF;">
+                     <children>
+                        <Label layoutX="10.0" layoutY="10.0" text="Add">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label layoutX="235.0" layoutY="20.0" text="Discount" textFill="ORANGE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="303.0" layoutY="20.0" text="Coupon Code" textFill="ORANGE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="399.0" layoutY="20.0" text="Note" textFill="ORANGE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children></Pane>
+      <ImageView fitHeight="112.0" fitWidth="164.0" layoutX="383.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Homemade%20Pizza%20and%20Pizza%20Dough.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="167.0" layoutY="310.0" text="Wrap and roll sandwich" />
+      <Label layoutX="377.0" layoutY="312.0" prefHeight="17.0" prefWidth="0.0" />
+      <Label layoutX="646.0" layoutY="310.0" text="Minestrone Soup" />
+      <Pane layoutX="138.0" layoutY="377.0" prefHeight="214.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="132.0" layoutX="51.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Vietnamese%20Rice%20Paper%20Rolls.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="90.0" layoutY="191.0" text="\$10.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Pane layoutX="134.0" layoutY="-28.0" prefHeight="200.0" prefWidth="200.0" />
+            <Label layoutX="22.0" layoutY="172.0" text="Vietnamese Rice Paper Rolls" />
+         </children>
+      </Pane>
+      <Pane layoutX="359.0" layoutY="376.0" prefHeight="214.0" prefWidth="209.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="46.0" layoutY="143.0" text="Homemade Pizza and " />
+            <Label layoutX="95.0" layoutY="181.0" text="\$15.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="118.0" fitWidth="184.0" layoutX="12.0" layoutY="13.0">
+               <image>
+                  <Image url="@Simple%20Green%20Salad.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="72.0" layoutY="160.0" text="Pizza Dough" />
+         </children>
+      </Pane>
+      <Pane layoutX="586.0" layoutY="377.0" prefHeight="214.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="72.0" layoutY="132.0" text="Sushi Rolls" />
+            <Label layoutX="80.0" layoutY="151.0" text="\$20.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="109.0" fitWidth="164.0" layoutX="17.0" layoutY="13.0">
+               <image>
+                  <Image url="@Sushi%20Rolls.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="138.0" layoutY="616.0" prefHeight="214.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="132.0" layoutX="34.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Gochujang%20Noodles%20Vegetable%20Tofu.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="90.0" layoutY="192.0" text="\$15.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="42.0" layoutY="155.0" text="Gojuchuang Noodles " />
+            <Label layoutX="59.0" layoutY="172.0" text="Vegetable Tofu" />
+         </children>
+      </Pane>
+      <Pane layoutX="586.0" layoutY="616.0" prefHeight="214.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="72.0" layoutY="132.0" text="Fish Salad" />
+            <Label layoutX="95.0" layoutY="151.0" text="\$20.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="109.0" fitWidth="164.0" layoutX="17.0" layoutY="13.0">
+               <image>
+                  <Image url="@Fish%20Salad.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="359.0" layoutY="616.0" prefHeight="214.0" prefWidth="209.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="46.0" layoutY="143.0" text="Quiche Lorraine frittata " />
+            <Label layoutX="95.0" layoutY="162.0" text="\$20.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="118.0" fitWidth="184.0" layoutX="12.0" layoutY="13.0">
+               <image>
+                  <Image url="@Quiche%20Lorraine%20frittata.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="804.0" layoutY="72.0" prefHeight="56.0" prefWidth="457.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Pane layoutX="8.0" layoutY="9.0" prefHeight="35.0" prefWidth="115.0" styleClass="addCustomer">
+               <children>
+                  <ImageView fitHeight="17.0" fitWidth="21.0" layoutX="4.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@plus.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="27.0" layoutY="9.0" text="Add Customer">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="417.0" layoutY="7.0" prefHeight="35.0" prefWidth="32.0" styleClass="reload">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" styleClass="reload">
+                     <image>
+                        <Image url="@reload.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="374.0" layoutY="8.0" prefHeight="35.0" prefWidth="32.0" styleClass="add">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@plus.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children></Pane>
+      <Pane layoutX="804.0" layoutY="686.0" prefHeight="200.0" prefWidth="457.0" style="-fx-background-color: #F1F1F1;">
+         <children>
+            <Label layoutX="35.0" layoutY="29.0" text="Subtotal" />
+            <Label layoutX="35.0" layoutY="64.0" text="Tax" />
+            <Label layoutX="35.0" layoutY="109.0" text="Payable Amount">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Label>
+            <Pane layoutX="232.0" layoutY="149.0" prefHeight="35.0" prefWidth="126.0" styleClass="proceed">
+               <children>
+                  <Label layoutX="44.0" layoutY="5.0" text="Proceed" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="21.0" fitWidth="18.0" layoutX="19.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@next.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="76.0" layoutY="149.0" prefHeight="35.0" prefWidth="126.0" styleClass="holdOrder">
+               <children>
+                  <Label layoutX="35.0" layoutY="5.0" text="Hold Order" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Label>
+                  <ImageView fitHeight="21.0" fitWidth="18.0" layoutX="12.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@video-pause-button.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Label layoutX="366.0" layoutY="29.0" text="\$104.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="367.0" layoutY="64.0" text="\$5.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="366.0" layoutY="109.0" text="\$109.00">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Separator layoutX="-1.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="6.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

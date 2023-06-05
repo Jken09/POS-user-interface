@@ -1,0 +1,80 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-color: #F1F1F1;
+}
+
+.home{
+   -fx-background-color: #ffd580;  
+}
+.lunch{
+    -fx-background-color: #ffd580;
+}
+.table{
+    -fx-background-color:#ffa500;
+}
+
+.order1{
+    -fx-background-color: #f1f1f1;
+}
+
+.order2{
+    -fx-background-color: #f1f1f1;
+}
+
+.customer{
+    -fx-background-color:  #f3f3f3;
+}
+
+.addCustomer{
+    -fx-background-color:  #f1f1f1;   
+}
+
+.reload{
+    -fx-background-color:  #f1f1f1;
+}
+
+.add{
+    -fx-background-color:  #f1f1f1;   
+}
+
+.reloadTop{
+    -fx-background-color:  #f1f1f1;
+}
+
+.wifi{
+    -fx-background-color:  #f1f1f1;
+}
+
+.addBottom{
+    -fx-background-color:  #FFD580;
+}
+
+.holdOrder{
+    -fx-background-color:  #FFA500;
+}
+
+.proceed{
+    -fx-background-color:  #00FF00;
+    
+}
+.leftPane{
+    -fx-background-color:  #FFFFFF;
+    
+}
+
+.rightPane{
+    -fx-background-color:  #FFFFFF;
+    
+}
+
+.topPane{
+    -fx-background-color: #FFFFFF;
+    
+}
+
+.topMenu{
+    -fx-background-color: #FFFFFF;
+}
